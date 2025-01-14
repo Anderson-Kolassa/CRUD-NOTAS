@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #0c0c0c;
+    
+}
+
+header h3{
+    color:#9f239e;
+}
+
+header h1{
+    color:#d2c8d2;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:2rem;
+    gap:1rem;
+}
+
+.adicionaPensamento{
+    display: flex;
+    align-items: center;
+}
