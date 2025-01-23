@@ -1,33 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    background-color: #0c0c0c;
-    
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #0c0c0c;
+  color: white;
 }
 
-header h3{
-    color:#9f239e;
+header h3 {
+  color: #9f239e;
+  font-size: 1.5rem;
 }
 
-header h1{
-    color:#d2c8d2;
+header h1 {
+  color: #d2c8d2;
+  font-size: 2.5rem;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top:2rem;
-    gap:1rem;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
 }
 
-.adicionaPensamento{
-    display: flex;
-    align-items: center;
+.adicionaPensamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 0.8rem;
+}
+
+.adicionaPensamento input {
+  width: 50%;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.adicionaPensamento button {
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  border-radius: 3px;
+  background-color: #c779ff;
+  color: white;
+}
+
+main {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
